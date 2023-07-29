@@ -1,0 +1,391 @@
+/* inter-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/inter-v12-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-v12-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v12-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    object-fit: cover;
+}
+
+body{
+    height: 100%;
+    font-family: 'Roboto', 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #E9F5FF;
+    color: #000000;
+}
+
+.container{
+    width: 100%;
+    max-width: 1240px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header{
+    background: #1391CEB2;
+}
+
+.header__container {
+    padding-top: 41px;
+    padding-bottom: 98px;
+}
+
+.sitenav {
+    display: flex;
+    align-items: center;
+}
+
+.sitenav__img {
+    margin-right: auto;
+    width: 192px;
+    height: 54px;
+}
+
+.sitenav__list {
+    display: flex;
+    align-items: center;
+}
+
+.sitenav__item {
+    margin-right: 32px;
+}
+
+.sitenav__link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #25468A;
+}
+
+.sitenav__btn {
+    padding: 9px 18px;
+    background-color: #ffffff;
+    gap: 10px;
+    border-radius: 24px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    color: #14274C;
+}
+
+.hero {
+    background-color: #1391CEB2;
+    margin-bottom: 176px;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 49px;
+}
+
+.hero__content {
+}
+
+.hero__title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 92px;
+    line-height: 107.81px;
+    color: #25468A;
+    margin-bottom: 8px;
+}
+
+.hero__text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37.5px;
+    color: #3B4A6B;
+    margin-bottom: 42px;
+}
+
+.hero__description {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #3B4A6B;
+    margin-bottom: 24px;
+}
+
+.hero__btn {
+    padding: 15px 85px;
+    background-color: #F7BA0E;
+    border-radius: 26px;
+    display: inline-block;
+}
+
+.hero__img {
+    width: 560px;
+    height: 401px;
+}
+
+.benefits__container {
+}
+
+.benefits__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.benefits__item {
+    box-shadow: 0px 4px 6px 0px #0000000D;
+    box-shadow: 0px 10px 15px 0px #1F64851A;
+    background-color: #1391CE;
+    border-radius: 8px;
+    padding: 69px 34px;
+    margin-bottom: 63px;
+    text-align: center;
+    margin-right: 32px;
+}
+
+.benefits__item:last-child{
+    margin-right: 0;
+}
+
+.benefits__item-text {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25.78px;
+    letter-spacing: 4%;
+    color: #ffffff  ;
+}
+
+.services {
+}
+
+.services__container {
+}
+
+.services__title {
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 43.67px;
+    letter-spacing: 1%;
+    text-align: center;
+    color: #1391CE;
+    width: 387px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15.83px;
+}
+
+.services__divider {
+    background-color: #F7BA0E;
+    border: none;
+    width: 160px;
+    height: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 96.17px;
+}
+
+.services__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.services__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+
+.services__item:last-child{
+    margin-bottom: 64px;
+}
+
+.services__item-img{
+    margin-right: 112px;
+}
+
+.services__item-content {
+}
+
+.services__item-content-top {
+    margin-bottom: 16px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.49px;
+    letter-spacing: 1%;
+    color: #25468A;
+    display: inline-block;
+}
+
+.services__item-content-title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42.98px;
+    letter-spacing: 1%;
+    color: #1391CE;
+    margin-bottom: 32px;
+}
+
+.services__item-content-text {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.17px;
+    letter-spacing: 2%;
+    color: #4F4F4F;
+    margin-bottom: 24px;
+}
+
+.services__item-content-2 {
+    margin-right: 96px;
+}
+
+.services__item-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.services__item-list-title {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 2%;
+    color: #1391CE;
+    margin-bottom: 16px;
+}
+
+.services__item-item {
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+    line-height: 21.49px;
+    letter-spacing: 2%;
+    color: #4F4F4F;
+    margin-bottom: 9px;
+}
+
+.services__item-item img{
+    margin-right: 18px;
+}
+
+.services__item-img-2 {
+}
+
+.services__item-img-3{
+    margin-right: 112px;
+}
+
+.footer {
+    background-color: #1391CE;
+    padding-top: 32px;
+    padding-bottom: 58px;
+}
+
+.footer__container {
+}
+
+.footer__divider {
+    border: none;
+    width: 1140px;
+    background-color: #E3E3E3;
+    height: 1px;    
+    margin-bottom: 21px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__text {
+    color: #302E2F;
+    font-family: 'Inter';
+    line-height: 21.49px;
+    letter-spacing: 1%;
+}
+.footer__text span{
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 21.49px;
+    letter-spacing: 1%;
+}
